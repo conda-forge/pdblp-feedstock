@@ -10,8 +10,7 @@ source:
   sha256: ccbecf941f1e88b85c6d6801785e0f76a54280dc3d2d39e7bd3836457da57192
 
 build:
-  number: 0
-  string: py{{ CONDA_PY }}_{{ PKG_BUILDNUM }}
+  number: 1
   script: python -m pip install --no-deps --ignore-installed .
   noarch: python
 
